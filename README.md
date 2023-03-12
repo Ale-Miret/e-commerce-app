@@ -7,7 +7,7 @@ This project is a back end for an e-commerce site built using Node.js, Express.j
 - [Installation](#installation)
 - [Usage](#usage)
 - [Walkthrough Video](#walkthrough-video)
-- [Questions](#questions)
+
 
 # Installation
 To install this project, you should clone the repository and install the necessary dependencies using the following command:
