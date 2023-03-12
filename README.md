@@ -7,6 +7,7 @@ This project is a back end for an e-commerce site built using Node.js, Express.j
 - [Installation](#installation)
 - [Usage](#usage)
 - [Walkthrough Video](#walkthrough-video)
+- [Links](#Links)
 
 
 # Installation
@@ -38,3 +39,5 @@ The API has the following routes:
 # Walkthrough Video
 
 
+# Links
+[GitHub Repo](https://github.com/Ale-Miret/e-commerce-app)
