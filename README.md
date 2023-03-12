@@ -37,6 +37,7 @@ The API has the following routes:
 * `DELETE /api/tags/:id` : deletes a tag by ID
 
 # Walkthrough Video
+[e-commerce walkthrough video.webm](https://user-images.githubusercontent.com/112821785/224557597-89149d4d-14f2-4845-8d9d-d1dcaec0a5ac.webm)
 
 
 # Links
