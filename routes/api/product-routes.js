@@ -1,7 +1,7 @@
-
 // Require necessary modules
 const router = require('express').Router();
 const { Product, Category, Tag, ProductTag } = require('../../models');
+
 
 // GET all products
 router.get('/', (req, res) => {
@@ -25,6 +25,8 @@ router.get('/', (req, res) => {
       res.status(500).json(err);
     });
 });
+
+
 
 // GET a single product by id
 router.get('/:id', (req, res) => {
@@ -51,6 +53,8 @@ router.get('/:id', (req, res) => {
       res.status(500).json(err);
     });
 });
+
+
 
 // POST a new product
 router.post('/', (req, res) => {
@@ -84,6 +88,8 @@ router.post('/', (req, res) => {
       res.status(400).json(err);
     });
 });
+
+
 
 // PUT update a product
 router.put('/:id', (req, res) => {
@@ -127,6 +133,8 @@ router.put('/:id', (req, res) => {
     });
 });
 
+
+
 router.delete('/:id', (req, res) => {
   // delete one product by its `id` value
   Product.destroy({
@@ -136,7 +144,7 @@ router.delete('/:id', (req, res) => {
     })
     .then(dbProductData => {
     if (!dbProductData) {
-    res.status(404).json({ message: 'No product found with this id' });
+    res.status(404).json({ message: 'Product ID not found' });
     return;
     }
     res.json(dbProductData);
